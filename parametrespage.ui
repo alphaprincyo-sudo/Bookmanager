@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParametresPage</class>
+ <widget class="QWidget" name="ParametresPage">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>900</width><height>600</height></rect></property>
+  <layout class="QVBoxLayout" name="pageLayout">
+   <property name="spacing"><number>16</number></property>
+   <property name="leftMargin"><number>28</number></property><property name="topMargin"><number>24</number></property><property name="rightMargin"><number>28</number></property><property name="bottomMargin"><number>28</number></property>
+   <item><widget class="QLabel" name="pageTitle"><property name="text"><string>Paramètres</string></property></widget></item>
+   <item><widget class="QLabel" name="pageSubtitle"><property name="text"><string>Configuration générale de la bibliothèque.</string></property></widget></item>
+   <item>
+    <widget class="QFrame" name="card">
+     <layout class="QVBoxLayout" name="cardLayout">
+      <property name="spacing"><number>14</number></property>
+      <property name="leftMargin"><number>22</number></property><property name="topMargin"><number>18</number></property><property name="rightMargin"><number>22</number></property><property name="bottomMargin"><number>20</number></property>
+      <item><widget class="QLabel" name="cardTitle"><property name="text"><string>Règles de prêt</string></property></widget></item>
+      <item><layout class="QFormLayout" name="formLayout">
+       <property name="horizontalSpacing"><number>20</number></property>
+       <property name="verticalSpacing"><number>14</number></property>
+       <item row="0" column="0"><widget class="QLabel" name="lblNom"><property name="text"><string>Nom de la bibliothèque</string></property></widget></item>
+<item row="0" column="1"><widget class="QLineEdit" name="nameEdit"><property name="text"><string>Bibliothèque universitaire</string></property></widget></item>
+       <item row="1" column="0"><widget class="QLabel" name="lblDuree"><property name="text"><string>Durée de prêt</string></property></widget></item>
+<item row="1" column="1"><widget class="QSpinBox" name="dureeSpin"><property name="suffix"><string> jours</string></property><property name="minimum"><number>1</number></property><property name="maximum"><number>90</number></property><property name="value"><number>14</number></property></widget></item>
+       <item row="2" column="0"><widget class="QLabel" name="lblMax"><property name="text"><string>Livres maximum par lecteur</string></property></widget></item>
+<item row="2" column="1"><widget class="QSpinBox" name="maxSpin"><property name="minimum"><number>1</number></property><property name="maximum"><number>20</number></property><property name="value"><number>5</number></property></widget></item>
+       <item row="3" column="0"><widget class="QLabel" name="lblLangue"><property name="text"><string>Langue</string></property></widget></item>
+<item row="3" column="1"><widget class="QComboBox" name="langCombo"><item><property name="text"><string>Français</string></property></item><item><property name="text"><string>Malagasy</string></property></item><item><property name="text"><string>English</string></property></item></widget></item>
+      </layout></item>
+      <item><widget class="QCheckBox" name="chkAttente"><property name="text"><string>Prévenir automatiquement le premier de la liste d'attente au retour d'un livre</string></property><property name="checked"><bool>true</bool></property></widget></item>
+      <item><widget class="QCheckBox" name="chkRappel"><property name="text"><string>Envoyer un rappel avant la date de retour</string></property><property name="checked"><bool>true</bool></property></widget></item>
+      <item><widget class="QPushButton" name="btnEnregistrer"><property name="maximumSize"><size><width>180</width><height>16777215</height></size></property><property name="text"><string>Enregistrer</string></property><property name="cursor"><cursorShape>PointingHandCursor</cursorShape></property></widget></item>
+      <item><widget class="QPushButton" name="btnDemo"><property name="text"><string>Charger des données de démonstration</string></property><property name="maximumSize"><size><width>320</width><height>16777215</height></size></property><property name="cursor"><cursorShape>PointingHandCursor</cursorShape></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+   <item><spacer name="pageSpacer"><property name="orientation"><enum>Qt::Vertical</enum></property><property name="sizeHint" stdset="0"><size><width>20</width><height>40</height></size></property></spacer></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

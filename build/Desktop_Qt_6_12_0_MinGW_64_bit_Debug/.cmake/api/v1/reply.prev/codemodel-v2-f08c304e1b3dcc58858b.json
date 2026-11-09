@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BookManager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookManager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookManager-Debug-a1a7bdc908d630286c6f.json",
+					"name" : "BookManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookManager_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookManager_autogen-Debug-2c88a201d2dc13f808e4.json",
+					"name" : "BookManager_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookManager_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookManager_autogen_timestamp_deps-Debug-b40a0eda303fd1489443.json",
+					"name" : "BookManager_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ASUS/Desktop/BookManager-1/BookManager/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+		"source" : "C:/Users/ASUS/Desktop/BookManager-1/BookManager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

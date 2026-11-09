@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+04da0f54cc054a7f431b8372e5b513ca BookManager_autogen/EWIEGA46WW/qrc_resources.cpp
+92c3a0595b9d143bb3525349ea6dae0d BookManager_autogen/timestamp
+20c88c205af812e76a1f220f3f7518dd CMakeFiles/BookManager_autogen
